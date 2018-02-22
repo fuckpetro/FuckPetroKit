@@ -2,7 +2,7 @@
 
 while(true){
 
-	exec('phantomjs fuckpetro.js &');
+	exec('phantomjs fuckpetrov2.js &');
 
 
 	sleep(1);

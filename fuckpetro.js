@@ -11,7 +11,7 @@ page.open('https://regpetro.mppeuct.gob.ve/natural', function (status) {
     	
 		 $("#t_dni").val('2');
     		$("#nombre").val(Math.floor(Math.random()*(max-min+1)+min)+' '+Math.floor(Math.random()*(max-min+1)+min));
-    		$("#email").val(Math.floor(Math.random()*(max-min+1)+min)+'@gmail');
+    		$("#email").val(Math.floor(Math.random()*(max-min+1)+min)+'@gmail.com');
     		$("#dni").val(Math.floor(Math.random()*(max-min+1)+min));
    
 		$('#registrar').submit();
