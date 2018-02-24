@@ -3,7 +3,6 @@ var page = webPage.create();
 
 page.open('https://regpetro.mppeuct.gob.ve/natural', function (status) {
   var content = page.content;
- //console.log('Content: ' + content);
  if (page.injectJs('petro.js')) {
   page.evaluate(function() {
    function rellenar() {
@@ -37,6 +36,7 @@ page.render('fillPetro'+Math.floor(Math.random()*(max-min+1)+min)+'.jpeg');
     }, 3000);
 
 });
+
 
 
 
